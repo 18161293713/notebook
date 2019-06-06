@@ -8,6 +8,7 @@
 ## Nginx的Master-Worker模式
 
 * 启动Nginx会存在master进程和worker进程（worker进程是在监听端口启动了socket服务来监听端口）
-* 存在一个Master进程，多个worker进程基于你配置想监听的端口个数
+* 存在一个Master进程，多个worker进程基于你配置想监听的端口个数(读取配置文件nginx.conf中配置)
   * master作用：读取并验证配置文件nginx.conf；管理worker进程；
   * Worker作用：每一个Worker进程都维护一个线程（避免线程切换），处理连接和请求；注意Worker进程的个数由配置文件决定，一般和CPU个数相关（有利于进程切换），配置几个就有几个Worker进程。
+
