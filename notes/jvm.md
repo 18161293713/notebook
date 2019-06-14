@@ -12,11 +12,11 @@
 
 ## JDK
 
-<div align="center"><img src="../images/jvm/JDK.png"/></div>
+<div align="center"><img src="../images/jvm/jdk.png"/></div>
 
 ## JRE
 
-<div align="center"><img src="../images/jvm/JRE.png"/></div>
+<div align="center"><img src="../images/jvm/jre.png"/></div>
 
 ## 发展历史
 
@@ -41,7 +41,7 @@
 
 ## JAVA对象
 
-<div align="center"><img src="../images/jvm/JAVA对象.png"/></div>
+<div align="center"><img src="../images/jvm/java对象.png"/></div>
 
 ## 异常
 
@@ -61,7 +61,7 @@
 
 ## JDK工具
 
-<div align="center"><img src="../images/jvm/JDK工具.png"/></div>
+<div align="center"><img src="../images/jvm/jdk工具.png"/></div>
 
 ## 数据类型
 
